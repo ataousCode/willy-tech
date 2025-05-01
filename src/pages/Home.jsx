@@ -448,7 +448,7 @@ function Home() {
             <AnimateOnScroll animation="fade-up" delay={100}>
               <TestimonialCard
                 quote="Willi Technology transformed our business with their eCommerce platform. Sales have increased by 40% since launch."
-                author="Sarah Johnson"
+                author="Saku M'dia"
                 position="CEO, Urban Styles"
                 avatar="https://via.placeholder.com/100"
               />
@@ -457,7 +457,7 @@ function Home() {
             <AnimateOnScroll animation="fade-up" delay={300}>
               <TestimonialCard
                 quote="The mobile payment solution developed by Willi has streamlined our operations and improved customer satisfaction significantly."
-                author="Michael Chen"
+                author="Atalib Ag"
                 position="CTO, FinTech Solutions"
                 avatar="https://via.placeholder.com/100"
               />
@@ -466,7 +466,7 @@ function Home() {
             <AnimateOnScroll animation="fade-up" delay={500}>
               <TestimonialCard
                 quote="Our restaurant chain has seen a 60% increase in online orders thanks to the intuitive app developed by the Willi team."
-                author="Jessica Martinez"
+                author="Atalib Ag"
                 position="Operations Director, Flavor Fusion"
                 avatar="https://via.placeholder.com/100"
               />
@@ -654,7 +654,7 @@ function Home() {
                       <h3 style={{ fontSize: "1.25rem", fontWeight: "600", color: "#a3b3c9", marginBottom: "0.5rem" }}>
                         Call Us
                       </h3>
-                      <p style={{ color: "#8491a9" }}>+1 (555) 123-4567</p>
+                      <p style={{ color: "#8491a9" }}>+228 70 18 45b57</p>
                     </div>
                   </div>
 
