@@ -10,6 +10,9 @@ import Button from "../components/Button"
 import SectionTitle from "../components/SectionTitle"
 import Card3D from "../components/Card3D"
 import GradientBorder from "../components/GradientBorder"
+import SHOP from '../Images/shop.png'
+import PAY from '../Images/pay.png'
+import D from '../Images/d.png'
 
 function Home() {
   return (
@@ -369,8 +372,8 @@ function Home() {
           >
             <AnimateOnScroll animation="fade-up" delay={100}>
               <ProjectCard
-                image="https://via.placeholder.com/600x400"
-                title="FreshCart eCommerce Platform"
+                image={SHOP}
+                title="DjalilaShop eCommerce Platform"
                 category="eCommerce"
                 description="A comprehensive online shopping platform for a grocery chain with inventory management and delivery tracking."
               />
@@ -378,8 +381,8 @@ function Home() {
 
             <AnimateOnScroll animation="fade-up" delay={300}>
               <ProjectCard
-                image="https://via.placeholder.com/600x400"
-                title="PayQuick Mobile App"
+                image={PAY}
+                title="DjalilaPay Mobile App"
                 category="Mobile Payment"
                 description="Secure and fast payment application with biometric authentication and multi-currency support."
               />
@@ -387,8 +390,8 @@ function Home() {
 
             <AnimateOnScroll animation="fade-up" delay={500}>
               <ProjectCard
-                image="https://via.placeholder.com/600x400"
-                title="DineConnect Restaurant App"
+                image={D}
+                title="Go_Restau Restaurant App"
                 category="Food Delivery"
                 description="An all-in-one restaurant ordering and delivery platform with real-time tracking and loyalty program."
               />

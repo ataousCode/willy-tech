@@ -6,6 +6,10 @@ import SectionTitle from "../components/SectionTitle"
 import Card3D from "../components/Card3D"
 import GradientBorder from "../components/GradientBorder"
 
+import SHOP from '../Images/shop.png'
+import PAY from '../Images/pay.png'
+import D from '../Images/d.png'
+
 function Services() {
   return (
     <>
@@ -163,7 +167,7 @@ function Services() {
               <AnimateOnScroll animation="fade-left">
                 <Card3D>
                   <img
-                    src="https://via.placeholder.com/600x400"
+                    src={SHOP}
                     alt="eCommerce Platform"
                     style={{
                       width: "100%",
@@ -192,7 +196,7 @@ function Services() {
               <AnimateOnScroll animation="fade-right" className="order-last md:order-first">
                 <Card3D>
                   <img
-                    src="https://via.placeholder.com/600x400"
+                    src={PAY}
                     alt="Mobile App Payment"
                     style={{
                       width: "100%",
@@ -321,7 +325,7 @@ function Services() {
                         }}
                       >
                         <svg
-                          xmlns="http://www.w3.org/2000/svg"
+                          src="http://www.w3.org/2000/svg"
                           width="24"
                           height="24"
                           viewBox="0 0 24 24"
@@ -348,7 +352,7 @@ function Services() {
               <AnimateOnScroll animation="fade-left">
                 <Card3D>
                   <img
-                    src="https://via.placeholder.com/600x400"
+                    src={D}
                     alt="Restaurant Ordering App"
                     style={{
                       width: "100%",
