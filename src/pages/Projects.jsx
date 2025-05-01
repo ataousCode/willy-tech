@@ -9,6 +9,12 @@ import Button from "../components/Button"
 import SectionTitle from "../components/SectionTitle"
 import GradientBorder from "../components/GradientBorder"
 
+import SHOP from '../Images/shop.png'
+import PAY from '../Images/pay.png'
+import D from '../Images/d.png'
+import R from '../Images/r.png'
+
+
 function Projects() {
   const projectsLoading = useLoading(true, 1800)
   const featuredProjectLoading = useLoading(true, 2200)
@@ -114,8 +120,8 @@ function Projects() {
                 <AnimateOnScroll animation="fade-up" delay={100}>
                   <Card3D>
                     <ProjectCard
-                      image="https://via.placeholder.com/600x400"
-                      title="FreshCart eCommerce Platform"
+                      image={SHOP}
+                      title="DjalilaShop eCommerce Platform"
                       category="eCommerce"
                       description="A comprehensive online shopping platform for a grocery chain with inventory management and delivery tracking."
                     />
@@ -125,7 +131,7 @@ function Projects() {
                 <AnimateOnScroll animation="fade-up" delay={200}>
                   <Card3D>
                     <ProjectCard
-                      image="https://via.placeholder.com/600x400"
+                      image={PAY}
                       title="PayQuick Mobile App"
                       category="Mobile Payment"
                       description="Secure and fast payment application with biometric authentication and multi-currency support."
@@ -136,7 +142,7 @@ function Projects() {
                 <AnimateOnScroll animation="fade-up" delay={300}>
                   <Card3D>
                     <ProjectCard
-                      image="https://via.placeholder.com/600x400"
+                      image={D}
                       title="DineConnect Restaurant App"
                       category="Food Delivery"
                       description="An all-in-one restaurant ordering and delivery platform with real-time tracking and loyalty program."
@@ -144,21 +150,21 @@ function Projects() {
                   </Card3D>
                 </AnimateOnScroll>
 
-                <AnimateOnScroll animation="fade-up" delay={150}>
+                {/* <AnimateOnScroll animation="fade-up" delay={150}>
                   <Card3D>
                     <ProjectCard
-                      image="https://via.placeholder.com/600x400"
+                      image={R}
                       title="HealthTrack Patient Portal"
                       category="Healthcare"
                       description="A secure patient portal allowing users to schedule appointments, view medical records, and communicate with healthcare providers."
                     />
                   </Card3D>
-                </AnimateOnScroll>
+                </AnimateOnScroll> */}
 
                 <AnimateOnScroll animation="fade-up" delay={250}>
                   <Card3D>
                     <ProjectCard
-                      image="https://via.placeholder.com/600x400"
+                      image={R}
                       title="EduLearn LMS"
                       category="Education"
                       description="A learning management system for schools with course management, assignment submission, and progress tracking."
@@ -166,7 +172,7 @@ function Projects() {
                   </Card3D>
                 </AnimateOnScroll>
 
-                <AnimateOnScroll animation="fade-up" delay={350}>
+                {/* <AnimateOnScroll animation="fade-up" delay={350}>
                   <Card3D>
                     <ProjectCard
                       image="https://via.placeholder.com/600x400"
@@ -208,7 +214,7 @@ function Projects() {
                       description="A fitness tracking application with workout plans, progress monitoring, and nutrition guidance."
                     />
                   </Card3D>
-                </AnimateOnScroll>
+                </AnimateOnScroll> */}
               </>
             )}
           </div>
@@ -374,7 +380,7 @@ function Projects() {
               <AnimateOnScroll animation="fade-right">
                 <Card3D>
                   <img
-                    src="https://via.placeholder.com/800x600"
+                    src={SHOP}
                     alt="Featured Project"
                     style={{
                       width: "100%",

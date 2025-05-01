@@ -154,7 +154,7 @@ function Contact() {
                         </svg>
                       ),
                       title: "Call Us",
-                      content: "+1 (555) 123-4567",
+                      content: "+228 70 18 45b57",
                     },
                     {
                       icon: (
@@ -176,9 +176,9 @@ function Contact() {
                       title: "Visit Us",
                       content: (
                         <>
-                          123 Tech Avenue, Suite 100
+                          123 Tech Avenue, Ouagadougou 100
                           <br />
-                          San Francisco, CA 94107
+                          AES Burkina, FS 23212
                         </>
                       ),
                     },
@@ -358,7 +358,7 @@ function Contact() {
       </section>
 
       {/* Map Section */}
-      <section style={{ backgroundColor: "#111827", padding: "6rem 0" }}>
+      {/* <section style={{ backgroundColor: "#111827", padding: "6rem 0" }}>
         <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "0 1rem" }}>
           <SectionTitle title="Our Location" subtitle="Visit our office to meet the team" withLine={true} />
 
@@ -371,7 +371,7 @@ function Contact() {
                   boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)",
                 }}
               >
-                {/* This would be replaced with an actual map component in a real application */}
+            
                 <div
                   style={{
                     backgroundColor: "#1f2b47",
@@ -388,10 +388,10 @@ function Contact() {
             </Card3D>
           </AnimateOnScroll>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section with Parallax */}
-      <section
+      {/* <section
         style={{
           padding: "6rem 0",
           background: "linear-gradient(45deg, #5e5cff, #6e6aff)",
@@ -445,7 +445,7 @@ function Contact() {
             </div>
           </AnimateOnScroll>
         </div>
-      </section>
+      </section> */}
     </>
   )
 }

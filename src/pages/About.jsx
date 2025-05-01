@@ -7,6 +7,8 @@ import SectionTitle from "../components/SectionTitle"
 import Card3D from "../components/Card3D"
 import GradientBorder from "../components/GradientBorder"
 
+import CEO from '../Images/ceo.jpg'
+
 function About() {
   return (
     <>
@@ -117,10 +119,10 @@ function About() {
               <div style={{ position: "relative" }}>
                 <Card3D>
                   <img
-                    src="https://via.placeholder.com/600x400"
+                    src={CEO}
                     alt="Willi Technology Team"
                     style={{
-                      width: "100%",
+                      width: "50%",
                       height: "auto",
                       borderRadius: "0.5rem",
                       boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)",
@@ -425,23 +427,23 @@ function About() {
           >
             {[
               {
-                name: "John Smith",
+                name: "Yacouba Willi",
                 position: "CEO & Founder",
-                image: "https://via.placeholder.com/400x400",
-                bio: "With over 15 years of experience in technology, John leads our team with vision and expertise.",
+                image: CEO,
+                bio: "With over 8 years of experience in entrepreneurial business, Willi leads our team with vision and expertise.",
                 delay: 100,
               },
               {
                 name: "Sarah Johnson",
                 position: "CTO",
-                image: "https://via.placeholder.com/400x400",
+                image: CEO,
                 bio: "Sarah oversees our technical strategy and ensures we deliver cutting-edge solutions to our clients.",
                 delay: 300,
               },
               {
                 name: "Michael Chen",
                 position: "Lead Developer",
-                image: "https://via.placeholder.com/400x400",
+                image: CEO,
                 bio: "Michael leads our development team, bringing technical excellence and innovation to every project.",
                 delay: 500,
               },

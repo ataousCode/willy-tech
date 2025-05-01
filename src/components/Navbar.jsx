@@ -44,11 +44,11 @@ function Navbar() {
           <NavLink to="/" className={({ isActive }) => (isActive ? activeClass : inactiveClass)} end>
             Home
           </NavLink>
-          <NavLink to="/services" className={({ isActive }) => (isActive ? activeClass : inactiveClass)}>
-            Services
-          </NavLink>
           <NavLink to="/about" className={({ isActive }) => (isActive ? activeClass : inactiveClass)}>
             About
+          </NavLink>
+          <NavLink to="/services" className={({ isActive }) => (isActive ? activeClass : inactiveClass)}>
+            Services
           </NavLink>
           <NavLink to="/projects" className={({ isActive }) => (isActive ? activeClass : inactiveClass)}>
             Projects

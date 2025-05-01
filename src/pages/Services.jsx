@@ -8,7 +8,7 @@ import GradientBorder from "../components/GradientBorder"
 
 import SHOP from '../Images/shop.png'
 import PAY from '../Images/pay.png'
-import D from '../Images/d.png'
+import D from '../Images/sh.png'
 
 function Services() {
   return (
