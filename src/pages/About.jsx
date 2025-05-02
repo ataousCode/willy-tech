@@ -1,13 +1,20 @@
-"use client"
-import AnimatedCounter from "../components/AnimatedCounter"
-import AnimateOnScroll from "../components/AnimateOnScroll"
-import ParallaxHero from "../components/ParallaxHero"
-import Button from "../components/Button"
-import SectionTitle from "../components/SectionTitle"
-import Card3D from "../components/Card3D"
-import GradientBorder from "../components/GradientBorder"
+"use client";
+import AnimatedCounter from "../components/AnimatedCounter";
+import AnimateOnScroll from "../components/AnimateOnScroll";
+import ParallaxHero from "../components/ParallaxHero";
+import Button from "../components/Button";
+import SectionTitle from "../components/SectionTitle";
+import Card3D from "../components/Card3D";
+import GradientBorder from "../components/GradientBorder";
 
-import CEO from '../Images/ceo.jpg'
+import CEO from "../Images/ceo.jpg";
+import GROUP from "../Images/group.jpg";
+import FARIDA from "../Images/Farida.jpg";
+import ADAMA from "../Images/adam.jpg";
+import T from "../Images/t.jpg";
+import NET from "../Images/reseau.jpg";
+import RES from "../Images/res.jpg";
+import DEV from "../Images/dev.jpg";
 
 function About() {
   return (
@@ -54,7 +61,8 @@ function About() {
                 lineHeight: 1.6,
               }}
             >
-              We are a team of passionate technologists dedicated to creating innovative digital solutions
+              We are a team of passionate technologists dedicated to creating
+              innovative digital solutions
             </p>
           </AnimateOnScroll>
         </div>
@@ -62,7 +70,9 @@ function About() {
 
       {/* Our Story */}
       <section style={{ padding: "6rem 0", backgroundColor: "#0a0b14" }}>
-        <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "0 1rem" }}>
+        <div
+          style={{ maxWidth: "1200px", margin: "0 auto", padding: "0 1rem" }}
+        >
           <div
             style={{
               display: "grid",
@@ -97,19 +107,24 @@ function About() {
                   }}
                 >
                   <p>
-                    Founded in 2018, Willi Technology began with a simple mission: to help businesses leverage
-                    technology to achieve their goals. What started as a small team of developers has grown into a
-                    full-service technology company serving clients across various industries.
+                    Founded in 2018, Willi Technology began with a simple
+                    mission: to help businesses leverage technology to achieve
+                    their goals. What started as a small team of developers has
+                    grown into a full-service technology company serving clients
+                    across various industries.
                   </p>
                   <p>
-                    Our journey has been defined by a commitment to innovation, quality, and client satisfaction. We've
-                    evolved our services to meet the changing needs of businesses in the digital age, always staying at
-                    the forefront of technology trends.
+                    Our journey has been defined by a commitment to innovation,
+                    quality, and client satisfaction. We've evolved our services
+                    to meet the changing needs of businesses in the digital age,
+                    always staying at the forefront of technology trends.
                   </p>
                   <p>
-                    Today, Willi Technology is recognized for delivering cutting-edge solutions that drive business
-                    growth and enhance user experiences. Our team of experts brings together diverse skills and
-                    perspectives to create technology that makes a difference.
+                    Today, Willi Technology is recognized for delivering
+                    cutting-edge solutions that drive business growth and
+                    enhance user experiences. Our team of experts brings
+                    together diverse skills and perspectives to create
+                    technology that makes a difference.
                   </p>
                 </div>
               </div>
@@ -119,13 +134,14 @@ function About() {
               <div style={{ position: "relative" }}>
                 <Card3D>
                   <img
-                    src={CEO}
+                    src={GROUP}
                     alt="Willi Technology Team"
                     style={{
                       width: "50%",
                       height: "auto",
                       borderRadius: "0.5rem",
-                      boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)",
+                      boxShadow:
+                        "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)",
                     }}
                   />
                 </Card3D>
@@ -138,12 +154,23 @@ function About() {
                     padding: "1.5rem",
                     borderRadius: "0.5rem",
                     color: "#0a0b14",
-                    boxShadow: "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+                    boxShadow:
+                      "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
                     zIndex: 10,
                   }}
                 >
-                  <p style={{ fontSize: "1.5rem", fontWeight: "700", marginBottom: "0.25rem" }}>Since 2018</p>
-                  <p style={{ fontSize: "0.875rem" }}>Creating Digital Excellence</p>
+                  <p
+                    style={{
+                      fontSize: "1.5rem",
+                      fontWeight: "700",
+                      marginBottom: "0.25rem",
+                    }}
+                  >
+                    Since 2018
+                  </p>
+                  <p style={{ fontSize: "0.875rem" }}>
+                    Creating Digital Excellence
+                  </p>
                 </div>
               </div>
             </AnimateOnScroll>
@@ -159,7 +186,9 @@ function About() {
           position: "relative",
         }}
       >
-        <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "0 1rem" }}>
+        <div
+          style={{ maxWidth: "1200px", margin: "0 auto", padding: "0 1rem" }}
+        >
           <SectionTitle
             title="Our Values"
             subtitle="The principles that guide our work and relationships"
@@ -308,24 +337,29 @@ function About() {
                 delay: 600,
               },
             ].map((value, index) => (
-              <AnimateOnScroll key={index} animation="fade-up" delay={value.delay}>
+              <AnimateOnScroll
+                key={index}
+                animation="fade-up"
+                delay={value.delay}
+              >
                 <div
                   style={{
                     backgroundColor: "#111827",
                     borderRadius: "0.5rem",
                     padding: "2rem",
-                    boxShadow: "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
+                    boxShadow:
+                      "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
                     transition: "transform 0.3s ease, box-shadow 0.3s ease",
                   }}
                   onMouseOver={(e) => {
-                    e.currentTarget.style.transform = "translateY(-10px)"
+                    e.currentTarget.style.transform = "translateY(-10px)";
                     e.currentTarget.style.boxShadow =
-                      "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)"
+                      "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)";
                   }}
                   onMouseOut={(e) => {
-                    e.currentTarget.style.transform = "translateY(0)"
+                    e.currentTarget.style.transform = "translateY(0)";
                     e.currentTarget.style.boxShadow =
-                      "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)"
+                      "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)";
                   }}
                 >
                   <div
@@ -341,10 +375,19 @@ function About() {
                   >
                     {value.icon}
                   </div>
-                  <h3 style={{ fontSize: "1.5rem", fontWeight: "600", color: "#a3b3c9", marginBottom: "1rem" }}>
+                  <h3
+                    style={{
+                      fontSize: "1.5rem",
+                      fontWeight: "600",
+                      color: "#a3b3c9",
+                      marginBottom: "1rem",
+                    }}
+                  >
                     {value.title}
                   </h3>
-                  <p style={{ color: "#8491a9", lineHeight: 1.7 }}>{value.description}</p>
+                  <p style={{ color: "#8491a9", lineHeight: 1.7 }}>
+                    {value.description}
+                  </p>
                 </div>
               </AnimateOnScroll>
             ))}
@@ -354,8 +397,14 @@ function About() {
 
       {/* Stats Section */}
       <section style={{ padding: "6rem 0", backgroundColor: "#0a0b14" }}>
-        <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "0 1rem" }}>
-          <SectionTitle title="Our Impact" subtitle="The numbers that define our journey" animation="fade-up" />
+        <div
+          style={{ maxWidth: "1200px", margin: "0 auto", padding: "0 1rem" }}
+        >
+          <SectionTitle
+            title="Our Impact"
+            subtitle="The numbers that define our journey"
+            animation="fade-up"
+          />
 
           <div
             style={{
@@ -368,7 +417,15 @@ function About() {
               <GradientBorder>
                 <div style={{ textAlign: "center", padding: "2rem" }}>
                   <AnimatedCounter value={50} duration={2000} />
-                  <p style={{ marginTop: "0.5rem", color: "#8491a9", fontSize: "1rem" }}>Completed Projects</p>
+                  <p
+                    style={{
+                      marginTop: "0.5rem",
+                      color: "#8491a9",
+                      fontSize: "1rem",
+                    }}
+                  >
+                    Completed Projects
+                  </p>
                 </div>
               </GradientBorder>
             </AnimateOnScroll>
@@ -377,7 +434,15 @@ function About() {
               <GradientBorder>
                 <div style={{ textAlign: "center", padding: "2rem" }}>
                   <AnimatedCounter value={30} duration={2000} />
-                  <p style={{ marginTop: "0.5rem", color: "#8491a9", fontSize: "1rem" }}>Happy Clients</p>
+                  <p
+                    style={{
+                      marginTop: "0.5rem",
+                      color: "#8491a9",
+                      fontSize: "1rem",
+                    }}
+                  >
+                    Happy Clients
+                  </p>
                 </div>
               </GradientBorder>
             </AnimateOnScroll>
@@ -386,7 +451,15 @@ function About() {
               <GradientBorder>
                 <div style={{ textAlign: "center", padding: "2rem" }}>
                   <AnimatedCounter value={5} suffix="+" duration={2000} />
-                  <p style={{ marginTop: "0.5rem", color: "#8491a9", fontSize: "1rem" }}>Years Experience</p>
+                  <p
+                    style={{
+                      marginTop: "0.5rem",
+                      color: "#8491a9",
+                      fontSize: "1rem",
+                    }}
+                  >
+                    Years Experience
+                  </p>
                 </div>
               </GradientBorder>
             </AnimateOnScroll>
@@ -395,7 +468,15 @@ function About() {
               <GradientBorder>
                 <div style={{ textAlign: "center", padding: "2rem" }}>
                   <AnimatedCounter value={15} duration={2000} />
-                  <p style={{ marginTop: "0.5rem", color: "#8491a9", fontSize: "1rem" }}>Team Members</p>
+                  <p
+                    style={{
+                      marginTop: "0.5rem",
+                      color: "#8491a9",
+                      fontSize: "1rem",
+                    }}
+                  >
+                    Team Members
+                  </p>
                 </div>
               </GradientBorder>
             </AnimateOnScroll>
@@ -411,7 +492,9 @@ function About() {
           position: "relative",
         }}
       >
-        <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "0 1rem" }}>
+        <div
+          style={{ maxWidth: "1200px", margin: "0 auto", padding: "0 1rem" }}
+        >
           <SectionTitle
             title="Our Team"
             subtitle="Meet the talented people behind Willi Technology"
@@ -430,32 +513,65 @@ function About() {
                 name: "Yacouba Willi",
                 position: "CEO & Founder",
                 image: CEO,
-                bio: "With over 8 years of experience in entrepreneurial business, Willi leads our team with vision and expertise.",
+                bio: "With over 8 years of experience in entrepreneurship, Willi drives the company’s vision, growth, and strategic direction.",
                 delay: 100,
               },
               {
-                name: "Sarah Johnson",
-                position: "CTO",
-                image: CEO,
-                bio: "Sarah oversees our technical strategy and ensures we deliver cutting-edge solutions to our clients.",
+                name: "Adama",
+                position: "Team manager",
+                image: ADAMA,
+                bio: "Adama manages our team dynamics and project coordination, ensuring seamless collaboration and high performance.",
                 delay: 300,
               },
               {
-                name: "Michael Chen",
-                position: "Lead Developer",
-                image: CEO,
-                bio: "Michael leads our development team, bringing technical excellence and innovation to every project.",
+                name: "Almousleck Atalib Ag",
+                position: "Full stack developer",
+                image: DEV,
+                bio: "Almousleck develops and maintains web and mobile applications, working across front-end, back-end, databases, and DevOps infrastructure.",
+                delay: 500,
+              },
+              {
+                name: "Farida",
+                position: "Comptable",
+                image: FARIDA,
+                bio: "Farida handles the company’s accounting operations, ensuring financial accuracy, compliance, and efficient reporting.",
+                delay: 500,
+              },
+              {
+                name: "Djamila",
+                position: "Responsable commerciale",
+                image: RES,
+                bio: "Djamila leads our B2B commercial strategy, building strong client relationships and driving business development.",
+                delay: 500,
+              },
+              {
+                name: "Kader",
+                position: "Responsable reseaux",
+                image: NET,
+                bio: "Kader manages our network infrastructure, ensuring secure, reliable, and optimized connectivity across the organization.",
+                delay: 500,
+              },
+              {
+                name: "Mr Coulibaky",
+                position: "Transitair",
+                image: T,
+                bio: "Mr Coulibaky oversees logistics and customs operations, ensuring smooth and compliant transport of goods.",
                 delay: 500,
               },
             ].map((member, index) => (
-              <AnimateOnScroll key={index} animation="fade-up" delay={member.delay}>
+              <AnimateOnScroll
+                key={index}
+                animation="fade-up"
+                delay={member.delay}
+              >
                 <Card3D>
                   <div
                     style={{
                       backgroundColor: "#111827",
                       borderRadius: "0.5rem",
                       overflow: "hidden",
-                      boxShadow: "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
+                      boxShadow:
+                        "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
                     }}
                   >
                     <img
@@ -469,20 +585,41 @@ function About() {
                       }}
                     />
                     <div style={{ padding: "1.5rem" }}>
-                      <h3 style={{ fontSize: "1.5rem", fontWeight: "600", color: "#a3b3c9", marginBottom: "0.25rem" }}>
+                      <h3
+                        style={{
+                          fontSize: "1.5rem",
+                          fontWeight: "600",
+                          color: "#a3b3c9",
+                          marginBottom: "0.25rem",
+                        }}
+                      >
                         {member.name}
                       </h3>
-                      <p style={{ color: "#5e5cff", marginBottom: "1rem" }}>{member.position}</p>
-                      <p style={{ color: "#8491a9", lineHeight: 1.7 }}>{member.bio}</p>
-                      <div style={{ display: "flex", gap: "1rem", marginTop: "1.5rem" }}>
+                      <p style={{ color: "#5e5cff", marginBottom: "1rem" }}>
+                        {member.position}
+                      </p>
+                      <p style={{ color: "#8491a9", lineHeight: 1.7 }}>
+                        {member.bio}
+                      </p>
+                      <div
+                        style={{
+                          display: "flex",
+                          gap: "1rem",
+                          marginTop: "1.5rem",
+                        }}
+                      >
                         <a
                           href="#"
                           style={{
                             color: "#8491a9",
                             transition: "color 0.3s ease",
                           }}
-                          onMouseOver={(e) => (e.currentTarget.style.color = "#5e5cff")}
-                          onMouseOut={(e) => (e.currentTarget.style.color = "#8491a9")}
+                          onMouseOver={(e) =>
+                            (e.currentTarget.style.color = "#5e5cff")
+                          }
+                          onMouseOut={(e) =>
+                            (e.currentTarget.style.color = "#8491a9")
+                          }
                         >
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -500,8 +637,12 @@ function About() {
                             color: "#8491a9",
                             transition: "color 0.3s ease",
                           }}
-                          onMouseOver={(e) => (e.currentTarget.style.color = "#5e5cff")}
-                          onMouseOut={(e) => (e.currentTarget.style.color = "#8491a9")}
+                          onMouseOver={(e) =>
+                            (e.currentTarget.style.color = "#5e5cff")
+                          }
+                          onMouseOut={(e) =>
+                            (e.currentTarget.style.color = "#8491a9")
+                          }
                         >
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -528,7 +669,13 @@ function About() {
                 variant="primary"
                 size="lg"
                 icon={
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
                     <path
                       d="M12 5v14M5 12h14"
                       stroke="currentColor"
@@ -567,9 +714,22 @@ function About() {
           }}
         />
 
-        <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "0 1rem", position: "relative" }}>
+        <div
+          style={{
+            maxWidth: "1200px",
+            margin: "0 auto",
+            padding: "0 1rem",
+            position: "relative",
+          }}
+        >
           <AnimateOnScroll animation="fade-up">
-            <div style={{ textAlign: "center", maxWidth: "800px", margin: "0 auto" }}>
+            <div
+              style={{
+                textAlign: "center",
+                maxWidth: "800px",
+                margin: "0 auto",
+              }}
+            >
               <h2
                 style={{
                   fontSize: "2.5rem",
@@ -603,7 +763,7 @@ function About() {
         </div>
       </section>
     </>
-  )
+  );
 }
 
-export default About
+export default About;

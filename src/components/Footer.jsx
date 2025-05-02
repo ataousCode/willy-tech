@@ -105,12 +105,13 @@ function Footer() {
             <h3 className="text-lg font-semibold">Contact</h3>
             <ul className="mt-4 space-y-2">
               <li className="text-slate-400">
-                123 Tech Avenue, Suite 100
+              Situes immeuble abritant la parmacie remedis
+              
                 <br />
-                San Francisco, CA 94107
+                Secteur 5 Bobo dioulasso (Burkina Faso)
               </li>
               <li className="text-slate-400">info@willitechnology.com</li>
-              <li className="text-slate-400">+1 (555) 123-4567</li>
+              <li className="text-slate-400">+228 70 18 45b57</li>
             </ul>
           </div>
         </div>

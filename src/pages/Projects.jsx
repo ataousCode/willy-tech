@@ -13,6 +13,8 @@ import SHOP from '../Images/shop.png'
 import PAY from '../Images/pay.png'
 import D from '../Images/d.png'
 import R from '../Images/r.png'
+import SH from '../Images/sh.png'
+
 
 
 function Projects() {
@@ -132,7 +134,7 @@ function Projects() {
                   <Card3D>
                     <ProjectCard
                       image={PAY}
-                      title="PayQuick Mobile App"
+                      title="DjalilaPay Mobile App"
                       category="Mobile Payment"
                       description="Secure and fast payment application with biometric authentication and multi-currency support."
                     />
@@ -143,7 +145,7 @@ function Projects() {
                   <Card3D>
                     <ProjectCard
                       image={D}
-                      title="DineConnect Restaurant App"
+                      title="Go_Restaurant App"
                       category="Food Delivery"
                       description="An all-in-one restaurant ordering and delivery platform with real-time tracking and loyalty program."
                     />
@@ -226,7 +228,7 @@ function Projects() {
         <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "0 1rem" }}>
           <SectionTitle
             title="Featured Project"
-            subtitle="A closer look at one of our most successful implementations"
+            subtitle="Go_Restau is a feature project under development for a multi vendor restaurants. Bellow you see the admin panel"
             withLine={true}
           />
 
@@ -380,7 +382,7 @@ function Projects() {
               <AnimateOnScroll animation="fade-right">
                 <Card3D>
                   <img
-                    src={SHOP}
+                    src={SH}
                     alt="Featured Project"
                     style={{
                       width: "100%",

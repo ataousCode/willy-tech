@@ -176,9 +176,9 @@ function Contact() {
                       title: "Visit Us",
                       content: (
                         <>
-                          123 Tech Avenue, Ouagadougou 100
+                         Situes immeuble abritant la parmacie remedis
                           <br />
-                          AES Burkina, FS 23212
+                         Secteur 5 Bobo dioulasso (Burkina Faso)
                         </>
                       ),
                     },
