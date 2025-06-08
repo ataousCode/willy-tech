@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import LOGO from '../Images/1.png'
 
 function Footer() {
   return (
@@ -7,12 +8,13 @@ function Footer() {
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           <div>
             <Link to="/" className="inline-block">
-              <span className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-teal-400 bg-clip-text text-transparent">
+              {/* <span className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-teal-400 bg-clip-text text-transparent">
                 Willi Tech
-              </span>
+              </span> */}
+              <img src={LOGO} alt="" width={200} />
             </Link>
             <p className="mt-4 text-slate-400">
-              Innovative technology solutions for modern businesses. We help transform your ideas into reality.
+            Des solutions technologiques innovantes pour les entreprises modernes. Nous vous aidons à concrétiser vos idées. Nous nous engageons à vous offrir des solutions technologiques innovantes et de qualité supérieure.
             </p>
             <div className="mt-6 flex space-x-4">
               <a href="#" className="text-slate-400 hover:text-white">

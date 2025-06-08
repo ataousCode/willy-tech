@@ -2,6 +2,8 @@
 
 import { useState, useEffect } from "react"
 import { Link, NavLink, useLocation } from "react-router-dom"
+import Button from "./Button"
+import LOGO from '../Images/1.png'
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
@@ -35,9 +37,10 @@ function Navbar() {
     >
       <div className="container mx-auto flex h-16 items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link to="/" className="flex items-center space-x-2">
-          <span className="text-2xl font-bold bg-gradient-to-r from-[#5edbdb] to-[#5edbdb] bg-clip-text text-transparent">
+          {/* <span className="text-2xl font-bold bg-gradient-to-r from-[#5edbdb] to-[#5edbdb] bg-clip-text text-transparent">
             Willi Tech
-          </span>
+          </span> */}
+          <img src={LOGO} alt="" width={200} />
         </Link>
 
         <nav className="hidden md:flex items-center space-x-6">
@@ -59,9 +62,12 @@ function Navbar() {
         </nav>
 
         <div className="hidden md:flex items-center space-x-4">
-          <button className="bg-[#5edbdb] hover:bg-[#4cc8c8] text-[#0f172a] font-medium py-2 px-4 rounded transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5">
-            Get Started
-          </button>
+           <Link 
+            to="/vendor-registration" 
+            className="bg-[#5edbdb] hover:bg-[#4cc8c8] text-[#0f172a] font-medium py-2 px-4 rounded transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5"
+          >
+            Inscription
+          </Link>
         </div>
 
         <div className="flex md:hidden items-center">

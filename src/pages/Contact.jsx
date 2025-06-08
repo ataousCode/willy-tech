@@ -37,7 +37,7 @@ function Contact() {
                 lineHeight: 1.2,
               }}
             >
-              Contact Us
+              Contactez-nous
             </h1>
           </AnimateOnScroll>
 
@@ -51,7 +51,7 @@ function Contact() {
                 lineHeight: 1.6,
               }}
             >
-              Get in touch with our team to discuss your project
+              Contactez notre équipe pour discuter de votre projet, obtenir des informations détaillées ou simplement discuter de votre entreprise.
             </p>
           </AnimateOnScroll>
 
@@ -73,7 +73,7 @@ function Contact() {
                 </svg>
               }
             >
-              Reach Out Now
+              Contactez-nous maintenant
             </Button>
           </AnimateOnScroll>
         </div>
@@ -112,7 +112,7 @@ function Contact() {
                     lineHeight: 1.6,
                   }}
                 >
-                  Have a question or want to discuss a project? Reach out to us and we'll get back to you shortly.
+                  Vous avez une question ou souhaitez discuter d'un projet? Contactez-nous et nous vous répondrons dans les plus brefs délais. Nous sommes là pour vous aider.
                 </p>
 
                 <div style={{ display: "flex", flexDirection: "column", gap: "1.5rem" }}>

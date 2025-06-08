@@ -570,7 +570,6 @@ function Services() {
                 showPopup={true}
                 variant="secondary"
                 size="xl"
-                style={{ backgroundColor: "#0a0b14", color: "#5e5cff" }}
               >
                 Contact Us
               </Button>

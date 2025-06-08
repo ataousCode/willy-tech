@@ -523,7 +523,6 @@ function Home() {
                 to="/contact"
                 variant="secondary"
                 size="xl"
-                style={{ backgroundColor: "#0a0b14", color: "#5e5cff" }}
               >
                 Get Started Today
               </Button>

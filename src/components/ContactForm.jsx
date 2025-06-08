@@ -1,6 +1,5 @@
-"use client"
-
 import { useState } from "react"
+import emailjs from '@emailjs/browser'
 
 function ContactForm({ isLoading = false }) {
   const [formData, setFormData] = useState({
@@ -32,13 +31,36 @@ function ContactForm({ isLoading = false }) {
   const handleSubmit = async (e) => {
     e.preventDefault()
     setIsSubmitting(true)
+    setSubmitMessage(null)
 
-    // Simulate form submission with loading animation
-    setTimeout(() => {
-      setIsSubmitting(false)
+    try {
+      // EmailJS configuration
+      const serviceId = 'service_hzwmmvg'
+      const templateId = 'template_kph5p2l'
+      const publicKey = 'qxbZeMlXnpTar0PlY'
+
+      // Template parameters for EmailJS
+      const templateParams = {
+        from_name: formData.name,
+        from_email: formData.email,
+        subject: formData.subject,
+        message: formData.message,
+        to_name: 'Willi Technology Team', // Your company name
+      }
+
+      // Send email using EmailJS
+      const result = await emailjs.send(
+        serviceId,
+        templateId,
+        templateParams,
+        publicKey
+      )
+
+      console.log('Email sent successfully:', result)
+      
       setSubmitMessage({
         type: "success",
-        text: "Message sent! We'll get back to you as soon as possible.",
+        text: "Message sent successfully! We'll get back to you as soon as possible.",
       })
 
       // Reset form
@@ -49,11 +71,20 @@ function ContactForm({ isLoading = false }) {
         message: "",
       })
 
-      // Clear success message after 5 seconds
+    } catch (error) {
+      console.error('EmailJS error:', error)
+      setSubmitMessage({
+        type: "error",
+        text: "Failed to send message. Please try again or contact us directly.",
+      })
+    } finally {
+      setIsSubmitting(false)
+      
+      // Clear message after 5 seconds
       setTimeout(() => {
         setSubmitMessage(null)
       }, 5000)
-    }, 1500)
+    }
   }
 
   if (isLoading) {

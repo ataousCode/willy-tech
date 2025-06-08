@@ -12,6 +12,7 @@ import Contact from "./pages/Contact"
 import ScrollToTop from "./components/ScrollToTop"
 import PageTransition from "./components/PageTransition"
 import Popup from "./components/Popup"
+import VendorRegistration from "./pages/VendorRegistration"
 
 function App() {
   const location = useLocation()
@@ -52,6 +53,14 @@ function App() {
               element={
                 <PageTransition>
                   <Projects />
+                </PageTransition>
+              }
+            />
+            <Route
+              path="/vendor-registration"
+              element={
+                <PageTransition>
+                  <VendorRegistration />
                 </PageTransition>
               }
             />

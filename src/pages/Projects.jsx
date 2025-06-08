@@ -51,7 +51,7 @@ function Projects() {
                 lineHeight: 1.2,
               }}
             >
-              Our Projects
+              Nos projets
             </h1>
           </AnimateOnScroll>
 
@@ -65,8 +65,7 @@ function Projects() {
                 lineHeight: 1.6,
               }}
             >
-              Explore our portfolio of successful technology solutions that have transformed businesses across
-              industries
+              Découvrez notre portefeuille de solutions technologiques performantes qui ont transformé des entreprises dans tous les secteurs. Notre équipe de professionnels passionnés est là pour vous guider dans chaque étape de votre projet.
             </p>
           </AnimateOnScroll>
 
@@ -88,7 +87,7 @@ function Projects() {
                 </svg>
               }
             >
-              Start Your Project
+              Démarrez votre projet
             </Button>
           </AnimateOnScroll>
         </div>
@@ -98,8 +97,8 @@ function Projects() {
       <section style={{ padding: "6rem 0", backgroundColor: "#0a0b14" }}>
         <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "0 1rem" }}>
           <SectionTitle
-            title="Our Latest Work"
-            subtitle="Discover how we've helped businesses achieve their goals through innovative technology solutions"
+            title="Nos derniers travaux"
+            subtitle="Découvrez comment nous avons aidé les entreprises à atteindre leurs objectifs grâce à des solutions technologiques innovantes"
             withLine={true}
           />
 
@@ -125,7 +124,7 @@ function Projects() {
                       image={SHOP}
                       title="DjalilaShop eCommerce Platform"
                       category="eCommerce"
-                      description="A comprehensive online shopping platform for a grocery chain with inventory management and delivery tracking."
+                      description="Une plateforme d'achat en ligne complète pour une chaîne d'épicerie avec gestion des stocks et suivi des livraisons."
                     />
                   </Card3D>
                 </AnimateOnScroll>
@@ -136,7 +135,7 @@ function Projects() {
                       image={PAY}
                       title="DjalilaPay Mobile App"
                       category="Mobile Payment"
-                      description="Secure and fast payment application with biometric authentication and multi-currency support."
+                      description="Application de paiement sécurisée et rapide avec authentification biométrique et support multi-devises."
                     />
                   </Card3D>
                 </AnimateOnScroll>
@@ -146,22 +145,11 @@ function Projects() {
                     <ProjectCard
                       image={D}
                       title="Go_Restaurant App"
-                      category="Food Delivery"
-                      description="An all-in-one restaurant ordering and delivery platform with real-time tracking and loyalty program."
+                      category="Livraison de nourriture"
+                      description="Une plateforme de commande et de livraison de restaurant tout-en-un avec suivi en temps réel et programme de fidélité."
                     />
                   </Card3D>
                 </AnimateOnScroll>
-
-                {/* <AnimateOnScroll animation="fade-up" delay={150}>
-                  <Card3D>
-                    <ProjectCard
-                      image={R}
-                      title="HealthTrack Patient Portal"
-                      category="Healthcare"
-                      description="A secure patient portal allowing users to schedule appointments, view medical records, and communicate with healthcare providers."
-                    />
-                  </Card3D>
-                </AnimateOnScroll> */}
 
                 <AnimateOnScroll animation="fade-up" delay={250}>
                   <Card3D>
@@ -169,54 +157,11 @@ function Projects() {
                       image={R}
                       title="EduLearn LMS"
                       category="Education"
-                      description="A learning management system for schools with course management, assignment submission, and progress tracking."
+                      description="Un système de gestion de l'apprentissage pour les écoles avec gestion des cours, soumission des devoirs et suivi des progrès."
                     />
                   </Card3D>
                 </AnimateOnScroll>
 
-                {/* <AnimateOnScroll animation="fade-up" delay={350}>
-                  <Card3D>
-                    <ProjectCard
-                      image="https://via.placeholder.com/600x400"
-                      title="TravelBuddy App"
-                      category="Travel"
-                      description="A travel companion app with itinerary planning, booking integration, and local recommendations."
-                    />
-                  </Card3D>
-                </AnimateOnScroll>
-
-                <AnimateOnScroll animation="fade-up" delay={200}>
-                  <Card3D>
-                    <ProjectCard
-                      image="https://via.placeholder.com/600x400"
-                      title="WorkFlow Project Management"
-                      category="Business"
-                      description="A comprehensive project management tool with task tracking, team collaboration, and reporting features."
-                    />
-                  </Card3D>
-                </AnimateOnScroll>
-
-                <AnimateOnScroll animation="fade-up" delay={300}>
-                  <Card3D>
-                    <ProjectCard
-                      image="https://via.placeholder.com/600x400"
-                      title="SecureVault Password Manager"
-                      category="Security"
-                      description="A secure password management solution with encryption, auto-fill, and cross-device synchronization."
-                    />
-                  </Card3D>
-                </AnimateOnScroll>
-
-                <AnimateOnScroll animation="fade-up" delay={400}>
-                  <Card3D>
-                    <ProjectCard
-                      image="https://via.placeholder.com/600x400"
-                      title="FitTrack Fitness App"
-                      category="Health & Fitness"
-                      description="A fitness tracking application with workout plans, progress monitoring, and nutrition guidance."
-                    />
-                  </Card3D>
-                </AnimateOnScroll> */}
               </>
             )}
           </div>
@@ -227,8 +172,8 @@ function Projects() {
       <section style={{ backgroundColor: "#111827", padding: "6rem 0" }}>
         <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "0 1rem" }}>
           <SectionTitle
-            title="Featured Project"
-            subtitle="Go_Restau is a feature project under development for a multi vendor restaurants. Bellow you see the admin panel"
+            title="Projet en vedette"
+            subtitle="Go_Restau est un projet de fonctionnalité en cours de développement pour un restaurant multi-fournisseurs. Ci-dessous, vous trouverez le panneau d'administration."
             withLine={true}
           />
 
@@ -533,7 +478,6 @@ function Projects() {
                 to="/contact"
                 variant="secondary"
                 size="xl"
-                style={{ backgroundColor: "#0a0b14", color: "#5e5cff" }}
               >
                 Contact Us
               </Button>
