@@ -13,6 +13,7 @@ import GradientBorder from "../components/GradientBorder"
 import SHOP from '../Images/shop.png'
 import PAY from '../Images/pay.png'
 import D from '../Images/d.png'
+import USER from '../Images/user.png';
 
 function Home() {
   return (
@@ -450,25 +451,25 @@ function Home() {
                 quote="Willi Technology transformed our business with their eCommerce platform. Sales have increased by 40% since launch."
                 author="Saku M'dia"
                 position="CEO, Urban Styles"
-                avatar="https://via.placeholder.com/100"
+                avatar={USER}
               />
             </AnimateOnScroll>
 
             <AnimateOnScroll animation="fade-up" delay={300}>
               <TestimonialCard
                 quote="The mobile payment solution developed by Willi has streamlined our operations and improved customer satisfaction significantly."
-                author="Atalib Ag"
+                author="Ousmane"
                 position="CTO, FinTech Solutions"
-                avatar="https://via.placeholder.com/100"
+                avatar={USER}
               />
             </AnimateOnScroll>
 
             <AnimateOnScroll animation="fade-up" delay={500}>
               <TestimonialCard
                 quote="Our restaurant chain has seen a 60% increase in online orders thanks to the intuitive app developed by the Willi team."
-                author="Atalib Ag"
+                author="Sangary"
                 position="Operations Director, Flavor Fusion"
-                avatar="https://via.placeholder.com/100"
+                avatar={USER}
               />
             </AnimateOnScroll>
           </div>
